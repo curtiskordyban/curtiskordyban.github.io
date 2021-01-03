@@ -1297,7 +1297,7 @@ a:hover {
 
 /*------/ Comments /------*/
 .box-comments .list-comments li {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .box-comments .list-comments .comment-avatar {
