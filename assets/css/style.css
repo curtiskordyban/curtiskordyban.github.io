@@ -42,7 +42,7 @@ h6 {
 
 a {
   color: #1e1e1e;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; 
 }
 
 a:hover {
@@ -50,7 +50,7 @@ a:hover {
   color: #5F9EA0;
 
   text-decoration: none;
-  transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out; 
 }
 
 .p-r {
@@ -244,7 +244,7 @@ a:hover {
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 5px #5F9EA0; 
   background-color: #fff;
-  transition: all 500ms ease;
+  /* transition: all 500ms ease; */
 }
 
 .socials .ico-circle:hover {
@@ -252,7 +252,7 @@ a:hover {
   background-color: #5F9EA0;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
-  transition: all 500ms ease;
+  /* transition: all 500ms ease; */
 }
 
 /*------/ Ul resect /------*/
@@ -301,7 +301,7 @@ a:hover {
   background: #cde1f8;
   border: 0px solid #cde1f8;
   display: block;
-  transition: all 0.6s ease-in-out;
+  transition: 0; 
   cursor: pointer;
 }
 
@@ -926,6 +926,7 @@ a:hover {
 
 .portfolio-details .portfolio-details-container {
   position: relative;
+
 }
 
 .portfolio-details .portfolio-details-carousel {
@@ -1035,7 +1036,6 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  /* color: #5F9EA0; */
   color: #5F9EA0;
   background-color: #fff;
   width: 52px;
