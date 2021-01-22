@@ -15,8 +15,13 @@ body {
 
   color: #4e4e4e;
 }
-@media only screen AND (max-width: 768px) { 
+@media only screen AND (max-width: 1165px) { 
   .mobileHidden { 
+    display: none; 
+  }
+}
+@media only screen AND (min-width: 1164px) { 
+  .mobileNote { 
     display: none; 
   }
 }
