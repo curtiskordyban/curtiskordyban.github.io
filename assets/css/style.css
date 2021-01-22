@@ -15,7 +15,11 @@ body {
 
   color: #4e4e4e;
 }
-
+@media only screen AND (max-width: 736px) { 
+  .mobileHidden { 
+    display: none; 
+  }
+}
 
 h1,
 h2,
