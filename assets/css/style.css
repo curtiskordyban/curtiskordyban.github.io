@@ -15,16 +15,32 @@ body {
 
   color: #4e4e4e;
 }
-@media only screen AND (max-width: 1165px) { 
+
+
+@media only screen AND (max-width: 1200px) { 
   .mobileHidden { 
     display: none; 
   }
 }
-@media only screen AND (min-width: 1164px) { 
-  .mobileNote { 
-    display: none; 
+
+
+@media only screen AND (min-width: 1200px)
+{ 
+  .gist {
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px !important;
+
+  }
+  .gist-data {
+      height:1000px;
+      overflow-y: visible;
+      width: 1000px !important;
+      overflow-x: visible;
   }
 }
+
 
 h1,
 h2,
